@@ -1,0 +1,5 @@
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
+  #noty_layout__topCenter {
+    left: 40%;
+  }
+}

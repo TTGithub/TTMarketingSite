@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="ThruThink Landing site">
+    <meta name="author" content="Csaba Toth">
+
+    <title>ThruThink</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--<link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">-->
+    <!--<link href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">-->
+
+    <link href="bower_components/fontawesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="bower_components/animate.css/animate.min.css" rel="stylesheet">
+    <link href="bower_components/noty/lib/noty.css" rel="stylesheet">
+    <link href="css/noty-custom.css" rel="stylesheet">
+
+    <!--<link href="bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css" rel="stylesheet"/>-->
+    <!--<link href="bower_components/datatables.net-responsive-bs/css/responsive.bootstrap.min.css" rel="stylesheet"/>-->
+
+    <!-- Custom styles for this template/website -->
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/navbar-custom.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/noty-custom-ie.css" />
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="//getbootstrap.com/assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="//oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+      <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5-history-api/4.2.7/history.min.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5-history-api/4.2.7/history.ielte7.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" id="hamburger-button" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="./">
+            <em>ThruThink<sup style="font-size: small">SM</sup></em>
+          </a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active hidden">
+              <a href="./" data-page="0_0" data-caption="" id="home-menu" class="menu-item wide-page dont-copy-menu-title has-background splash-image">Home</a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Features <span class="caret"></span></a>
+              <ul class="dropdown-menu forAnimate" role="menu">
+                <li>
+                  <a href="./premise" data-page="0_1" class="menu-item">The <em>ThruThink<sup style="font-size: xx-small">SM</sup></em> premise begins with EBITDA.</a>
+                </li>
+                <li>
+                  <a href="./evaluation" data-page="0_2" class="menu-item"><em>ThruThink Evaluation<sup style="font-size: xx-small">SM</sup></em></a>
+                </li>
+                <li>
+                  <a href="./deal_score" data-page="0_3" class="menu-item"><em>ThruThink Deal Score<sup style="font-size: xx-small">SM</sup></em></a>
+                </li>
+                <li>
+                  <a href="./cash_flow" data-page="0_4" class="menu-item">Weekly and Monthly Cash Flow</a>
+                </li>
+                <li>
+                  <a href="./capital_expenditures" data-page="0_5" class="menu-item">Capital Expenditures</a>
+                </li>
+                <li>
+                  <a href="./income_taxes" data-page="0_6" class="menu-item">Income Taxes</a>
+                </li>
+                <li>
+                  <a href="./adjustments" data-page="0_7" class="menu-item">Impromptu or Non Scheduled Adjustments</a>
+                </li>
+                <li>
+                  <a href="./adjust_journal_entries" data-page="0_8" class="menu-item">Adjusting Journal Entries</a>
+                </li>
+                <li>
+                  <a href="./non_expense_cash_flow" data-page="0_9" class="menu-item">Non Expense Cash Flow requirements</a>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Exit Strategy <span class="caret"></span></a>
+              <ul class="dropdown-menu forAnimate" role="menu">
+                <li><a href="./exit_strategy_analysis" data-page="0_10" class="menu-item">Exit Strategy Analysis</a></li>
+                <li><a href="./portion_purchase" data-page="0_11" class="menu-item">Sale or Purchase of a portion of the business</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="./combine_multiple_projects" data-page="0_12" class="menu-item" data-caption="Combine Multiple Projects">Combine Multiple Projects</a>
+            </li>
+            <li>
+              <a href="./adventure" data-page="13_0" class="menu-item has-background wide-page" data-caption="An Adventure into the Heart of a Business">About the Adventure</a>
+            </li>
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Policies <span class="caret"></span></a>
+              <ul class="dropdown-menu forAnimate" role="menu">
+                <li>
+                  <a href="docs/ThruThink Terms of Service.pdf" target="_blank">Terms of Service</a>
+                </li>
+                <li>
+                  <a href="docs/ThruThink Privacy Policy.pdf" target="_blank">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="docs/ThruThink SLA.pdf" target="_blank">Service Level Agreement</a>
+                </li>
+                <li>
+                  <a href="docs/ThruThink Sub User TOS.pdf" target="_blank">Sub User Terms of Service</a>
+                </li>
+                <li>
+                  <a href="docs/ThruThink AUP.pdf" target="_blank">Acceptable Use Policy</a>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <a href="./contact" data-page="0_14" class="menu-item" data-caption="Customer Assistance">Contact</a>
+            </li>
+
+            <li>
+              <a href="//app.thruthink.com/Login" data-caption="Existing User Login">Login</a>
+            </li>
+
+            <li class="hidden">
+              <a href="./answers" data-page="0_15" class="menu-item" data-caption="Why do I need <em>ThruThink<sup>SM</sup></em>?">Answers</a>
+            </li>
+            <li class="dropdown hidden">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Example Applications <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu forAnimate" role="menu">
+                <li>
+                  <a href="./individuals" data-page="16_0" class="menu-item dont-copy-menu-title splash-image" data-caption="Individuals">Individuals</a>
+                </li>
+                <li>
+                  <a href="./individual_company" data-page="17_0" class="menu-item dont-copy-menu-title wide-page splash-image" data-caption="Small Business">Small Business</a>
+                </li>
+                <li>
+                  <a href="./corporations" data-page="18_0" class="menu-item dont-copy-menu-title wide-page splash-image" data-caption="Medium to Large Corporations">Medium to Large Corporations</a>
+                </li>
+                <li>
+                  <a href="./equity_investments" data-page="19_0" class="menu-item dont-copy-menu-title wide-page splash-image" data-caption="Equity Investment Firms">Equity Investment</a>
+                </li>
+                <li>
+                  <a href="./university_classroom" data-page="20_0" class="menu-item dont-copy-menu-title wide-page splash-image" data-caption="University Level Classroom">University / Classroom</a>
+                </li>
+                <li>
+                  <a href="./agriculture" data-page="21_0" class="menu-item dont-copy-menu-title wide-page splash-image" data-caption="Farm Application">Agriculture</a>
+                </li>
+                <li>
+                  <a href="./restaurant_chain" data-page="22_0" class="menu-item dont-copy-menu-title wide-page splash-image" data-caption="Restaurants or Restaurant Chain">Restaurant Chain</a>
+                </li>
+                <li>
+                  <a href="./real_estate" data-page="23_0" class="menu-item dont-copy-menu-title wide-page splash-image" data-caption="Real Estate Investment Firm">Real Estate Investment</a>
+                </li>
+                <li>
+                  <a href="./advisory_cpa" data-page="24_0" class="menu-item dont-copy-menu-title wide-page splash-image" data-caption="CPA or Advisory Firm">Advisory / CPA</a>
+                </li>
+              </ul>
+            </li>
+            <li class="hidden">
+              <a href="./pricing" data-page="25_0" class="menu-item dont-copy-menu-title wide-page splash-image" data-caption="Pricing and Capability">Pricing</a>
+            </li>
+            <li class="hidden">
+              <a href="./quickdeal" data-page="26_0" class="menu-item dont-copy-menu-title splash-image" data-caption="Quick Deal">Individual Quick Deal</a>
+            </li>
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Example Applications <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu forAnimate" role="menu">
+                <li>
+                  <a href="./case_study_1" data-page="27_0" data-case-study="1" class="menu-item has-background wide-page case-study">Case Study #1 - Simple Business Purchase</a>
+                </li>
+                <li>
+                  <a href="./case_study_2" data-page="28_0" data-case-study="2" class="menu-item has-background wide-page case-study">Case Study #2 - More complicated Business Purchase</a>
+                </li>
+                <li>
+                  <a href="./case_study_3" data-page="29_0" data-case-study="3" class="menu-item has-background wide-page case-study">Case Study #3 - Apartment Purchase</a>
+                </li>
+                <li>
+                  <a href="./case_study_4" data-page="30_0" data-case-study="4" class="menu-item has-background wide-page case-study">Case Study #4 - Complicated Business Purchase</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Content -->
+    <div class="main">
+      <div id="content">
+        <div class="content-inner" id="content-inner">
+          <!-- filled by navigation.js except the home page -->
+          <!-- Home -->
+          <div class="item active wide-item">
+            <div class="container wide-container" data-item-id="0" data-loaded="true">
+              <div class="well page-well transparent-well">
+                <div class="page-body">
+                  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="panel panel-default">
+                      <div class="panel-heading xlarge" align="center">
+                        <div id="ytButtonFloat">
+                          Check out the<br>Intro Video:<br>
+                          <a class="btn btn-danger" data-toggle="modal" href="#ytModalDialog">
+                            <span class="fa fa-youtube fa-2x"></span>
+                          </a>
+                        </div>
+                        <img class="img-responsive" src="/img/logo3.png"><br>
+                        <strong>What is <em>ThruThink<sup style="font-size: small">SM</sup></em></strong>
+                      </div>
+                      <div class="panel-body large">
+                        <div class="col-lg-12">
+                          <p align="center"><strong><em>ThruThink<sup style="font-size: x-small">SM</sup> is an interactive business simulation model
+                            that illustrates the projected performance of a business in concert with its debt and equity structure.</em></strong></p>
+                          <p align="center"><strong><em>ThruThink<sup style="font-size: x-small">SM</sup> is used for the analysis, capital restructure
+                            or purchase of an existing company, target company, factory expansion, real estate deal or an entrepreneur's dream.</em></strong></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="panel panel-default">
+                      <div class="panel-heading xlarge" align="center"><strong>Solutions For:</strong></div>
+                      <div class="panel-body">
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-offset-1 col-lg-5">
+                          <a href="./individuals" role="button"
+                            class="btn btn-primary solution-btn" title="Individuals">Individuals</a>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5">
+                          <a href="./individual_company" role="button"
+                            class="btn btn-primary solution-btn" title="Small Business">Small Business</a>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-offset-1 col-lg-5">
+                          <a href="./corporations" role="button"
+                            class="btn btn-primary solution-btn" title="Medium to Large Corporations">Medium to Large Corporations</a>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5">
+                          <a href="./equity_investments" role="button"
+                            class="btn btn-primary solution-btn" title="Equity Investment Firms">Equity Investment</a>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-offset-1 col-lg-5">
+                          <a href="./university_classroom" role="button"
+                            class="btn btn-primary solution-btn" title="University / Classroom">University / Classroom</a>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5">
+                          <a href="./agriculture" role="button"
+                            class="btn btn-primary solution-btn" title="Farm Application">Agriculture</a>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-offset-1 col-lg-5">
+                          <a href="./restaurant_chain" role="button"
+                            class="btn btn-primary solution-btn" title="Restaurants or Restaurant Chain">Restaurant Chain</a>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5">
+                          <a href="./real_estate" role="button"
+                            class="btn btn-primary solution-btn" title="Real Estate Investment Firms">Real Estate Investment</a>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4">
+                          <a href="./advisory_cpa" role="button"
+                            class="btn btn-primary solution-btn" title="CPA or Advisory Firm">Advisory/CPA</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                      <div class="panel-heading xlarge" align="center"><strong>Need a Quick Deal Analysis?</strong></div>
+                      <div class="panel-body large">
+                        <p align="center"><strong>Get the <em>ThruThink<sup style="font-size: x-small">SM</sup> DealScore</em> for One Deal</strong>&nbsp;&nbsp;
+                          <a href="./quickdeal" role="button" class="btn btn-primary" title="Deal Score for One Deal">Individual Quick Deal</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="panel panel-default large">
+                      <div id="sub-header" class="panel-heading large" align="center">
+                        <!-- headers of sub pages loaded here -->
+                      </div>
+                      <div id="sub-content" class="panel-body svg-panel-body">
+                        <figure class="imagesvg" style="display: block">
+                          <svg style="display: block" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid meet"
+                                  viewBox="0 0 631 429" style="max-width: 631px; max-height: 429px;">
+                            <image style="display: block" width="631" height="429" xlink:href="img/SaleBoat.jpg"></image>
+                            <g style="display: block" class="hover_area" opacity="0.4">
+                              <!--<defs>
+                                <radialGradient id="glowGradient" cx="25" cy="25" r="50">
+                                  <stop stop-color="rgba(256, 256, 119, 1.0)" offset="0%"/>
+                                  <stop stop-color="rgba(256, 256, 119, 0.0)" offset="100%"/>
+                                </radialGradient>
+                              </defs>-->
+                              <a style="display: block" xlink:href="#answer" id="answer_button">
+                                <circle id="glowCircle" cx="447" cy="270" r="50" fill="#FFFF77" opacity="0.6"></circle>
+                                <!-- fill=url(#glowGradient)-->
+                              </a>
+                            </g>
+                          </svg>
+                        </figure>
+                        <!-- content of other sub pages are loaded here -->
+                      </div>
+                    </div>
+                    <div class="panel panel-default">
+                      <div class="panel-heading large" align="center">
+                        <strong>Approximately 1/2 of all businesses fail in the first five years</strong>
+                      </div>
+                      <div class="panel-body large">
+                        <p align="center"><strong>The most obvious symptom for business failure is running out of cash.</strong></p>
+                        <p align="center"><strong>The most correctable reason for business failure is not understanding the numbers.</strong></p>
+                        <div class="xlarge"><p align="center"><strong>Get <em>ThruThink<sup style="font-size: small">SM</sup></em> and Know your numbers!</strong></p></div>
+                        <p align="center"><a href="./pricing" role="button" class="btn btn-success">Buy Now</a><span class="aligner">&nbsp;</span></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="ytModalDialog" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            </div>
+            <div class="modal-body">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe id="ytIframe" class="embed-responsive-item" src="" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/bootstrap-dropdown-hover/dist/jquery.bootstrap-dropdown-hover.js"></script>
+    <script src="bower_components/noty/lib/noty.min.js"></script>
+    <script src="bower_components/numeral/min/numeral.min.js"></script>
+    <script src="bower_components/knockout/dist/knockout.js"></script>
+
+    <!--<script src="bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
+    <script src="bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+    <script src="bower_components/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
+    <script src="bower_components/datatables.net-responsive-bs/js/responsive.bootstrap.js"></script>-->
+
+    <script src="bower_components/page/page.js"></script>
+    <script src="js/sidebar.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

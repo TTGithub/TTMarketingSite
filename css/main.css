@@ -1,0 +1,266 @@
+body {
+  background-image: url('/img/BlueBg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #000;
+  background-color: transparent;
+}
+
+.glyphicon-ok {
+  color: darkgreen;
+}
+
+.glyphicon-remove {
+  color: darkred;
+}
+
+.center-image {
+  display: block;
+  margin: auto;
+}
+
+/*@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 940px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+*/
+.image-margined {
+  margin: 10px;
+}
+
+p.justify-text {
+  text-align: justify;
+}
+
+a[role='button'] {
+  text-decoration: none;
+}
+
+.solution-btn {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+#content-inner {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  /*justify-content: center;*/
+  flex-direction: column;
+  height: 93vh;
+}
+
+.well .panel {
+  border: none;
+  box-shadow: none;
+}
+
+.well .panel-default > .panel-heading,
+.well .panel-default > .panel-body {
+  border: none;
+  background-color: transparent;
+}
+
+.page-well {
+  border-radius: 10px;
+  max-height: 91vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.invisible-well {
+  background: #fafafa;
+  border: none;
+}
+
+.transparent-well,
+.transparent-well .panel,
+.transparent-well .panel .panel-heading,
+.transparent-well .panel .panel-body
+{
+  background: transparent;
+}
+
+.transparent-well {
+  padding: 5px;
+  margin-bottom: 0px;
+}
+
+.wide-container,
+.wide-item {
+  width: 100%
+}
+
+.large {
+  font-size: large;
+}
+
+.xlarge {
+  font-size: x-large;
+}
+
+.xxlarge {
+  font-size: xx-large;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+/* https://stackoverflow.com/questions/18474564/bootstrap-3-navbar-with-logo */
+/*.navbar-brand {*/
+/*  padding: 0px; /* firefox bug fix */
+/*}
+
+.navbar-brand > img {
+  height: 100%;
+  padding-left: 20px;
+  padding-right: 20px;*/
+  /*padding: 15px;*/ /* firefox bug fix */
+  /*width: auto;
+}*/
+
+/* https://stackoverflow.com/questions/9923739/twitter-bootstrap-navbar-height-too-small */
+/*.navbar .container-fluid {
+  height: 3.5em;
+  font-size: larger;
+}*/
+
+/*body {
+  padding-top: 6em;
+}*/
+
+.hover_area:hover {
+  opacity: 1;
+}
+
+.imagesvg {
+  width: 100%;
+  vertical-align: middle;
+  margin: 0;
+  overflow: hidden;
+}
+
+.imagesvg svg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table tbody tr > td.grey {
+  background-color: #f4f4f4;
+}
+
+.table-hover tbody tr:hover > td.grey {
+  background-color: #e6e6e6;
+}
+
+.popover {
+  max-width: 800px;
+  width: 800px;
+}
+
+.panel-default .accordion-header:after {
+  font-family: 'FontAwesome';
+  content: "\f078";
+}
+.panel-default.collapsed .accordion-header:after {
+  font-family: 'FontAwesome';
+  content: "\f054";
+}
+
+.panel-default h1.accordion-header:after {
+  font-size: 22pt;
+  font-weight: 200;
+  margin-left: 10px;
+}
+
+.panel-default h3.accordion-header:after {
+  font-size: 12pt;
+  font-weight: 200;
+  margin-left: 5px;
+}
+
+.panel-default h4.accordion-header:after {
+  font-size: 10pt;
+  font-weight: 200;
+  margin-left: 5px;
+}
+
+.panel-group,
+.panel-heading > h1,
+.panel-heading > h3,
+.panel-heading > h4 {
+  margin: 0;
+}
+
+.panel-body {
+  border: none;
+}
+
+.panel-heading.in-table {
+  padding: 0;
+}
+
+.panel-group .panel a,
+.panel-group .panel a:link,
+.panel-group .panel a:visited,
+.panel-group .panel a:active,
+.panel-group .panel a:hover {
+  text-decoration: none;
+}
+
+.aligner {
+  width: 3%;
+}
+
+#sub-header > h4 {
+  font-weight: bold;
+}
+
+h1, h2, h3, h4, h5 {
+  color: black;
+}
+
+#ytButtonFloat {
+  padding: 5px;
+  border-radius: 5px;
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  font-size: smaller;
+  background-color: rgba(256, 256, 256, 0.8);
+}
+
+.case-study-iframe {
+    width: calc(100vw - 50px);
+    height: calc(100vh - 250px);
+}
+
+.nav-tabs > li > a {
+  text-align: center;
+  font-size: larger;
+}
+
+.matrix-panel,
+.matrix-table {
+  font-size: larger;
+}

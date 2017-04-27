@@ -1,0 +1,296 @@
+<!-- Real Estate Investment -->
+<div class="panel-group" id="accordion_23">
+    <div class="panel panel-default">
+        <a class="panel-default collapsed" data-toggle="collapse" data-parent="#accordion_23" href="#collapse_23">
+            <div class="panel-heading">
+                <h3 class="accordion-header" align="center">Real Estate Investment</h3>
+            </div>
+        </a>
+        <div id="collapse_23" class="panel-collapse collapse">
+            <div class="panel-body matrix-panel">
+                <p align="center">
+                    <em>ThruThink<sup style="font-size: x-small">SM</sup></em> is designed to meet the needs of Real Estate Investor. Each property can be entered as a Project along with it's income,
+                    expenses and the debt required to acquire the property. A full balance sheet, Income Statement and Cash Flow will be developed from the User Inputs.
+                    This can be a simple investment where either a portion of the Equity or 100% of the Equity is being purchased by the Investor or a more involved full
+                    Balance Sheet purchase of a real estate investment. There is a choice of five time horizons for the investment and an Exit Sale provision. There
+                    can be three classes of Equity ownership in a Project. Each class can have a different percentage of Equity and a different percentage of Gain
+                    on Exit Sale of the Company. The latter is designed to provide an Equity manager an incentive upon the Exit Sale of the Company. Multiple Projects
+                    can be saved and compared. The <em>ThruThink Deal Score<sup style="font-size: x-small">SM</sup></em> can be used as a comparison guage between Projects.			
+                </p>
+                <p align="center">
+                    Sales, Cost of Goods Sold or alternatively EBITDA may be adjusted and managed along with Debt levels and repayment options and an array of
+                    Subordinated Debt options along with PIK Interest and Warrants. There is a Performance Earn Out provision for either the Seller or strategic investor.
+                </p>
+                <p align="center">
+                    The Individual Premium, Corporate Basic and Corporate Premium are subscriptions to use the <em>ThruThink<sup style="font-size: x-small">SM</sup></em> site which will enable the User can
+                    make changes on up to 10 Projects for the Individual Premium and an <abbr data-toggle="popover" data-placement="top"
+                    data-content="<em>ThruThink<sup style='font-size: xx-small'>SM</sup></em> reserves the right to set an upper limit on # of individual projects or combinations at some point in the future due to unforseen storage or computation issues in the future">
+                    unlimited<sup>*</sup></abbr> number of Projects on the Corporate Accounts.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="panel-group" id="accordion_dealscore_23">
+    <div class="panel panel-default">
+        <a class="panel-default collapsed" data-toggle="collapse" data-parent="#accordion_dealscore_23" href="#collapse_dealscore_23">
+            <div class="panel-heading">
+                <h4 class="accordion-header">ThruThink<sup style="font-size: medium">SM</sup> Deal Score</h4>
+            </div>
+        </a>
+        <div id="collapse_dealscore_23" class="panel-collapse collapse">
+            <div class="panel-body matrix-panel">
+                <p>
+                    The <em>ThruThink Evaluation<sup style="font-size: x-small">SM</sup></em> evaluates the &quot;Deal&quot; or comparative benefit to the Owner as presented by the User Inputs
+                    and calculates the <em>ThruThink<sup style="font-size: x-small">SM</sup> Deal Score</em>. It is not necessarily a score for the quality of the Company itself, but a score for
+                    the &quot;Deal&quot;. In other words, an excellent Company can receive a poor Deal Score because of the level of the purchase price or valuation,
+                    improper debt or equity structure, capital expenditures, owner draws, etc. The <em>ThruThink<sup style="font-size: x-small">SM</sup> Deal Score</em> is available with the
+                    Individual Quick Deal and the <em>ThruThink<sup style="font-size: x-small">SM</sup></em> subscription.
+                </p>
+                <p>
+                    The <em>ThruThink<sup style="font-size: x-small">SM</sup> Deal Score</em> uses proprietary algorithms and relationships that evaluates multiple factors involving historical
+                    information, the transaction itself and the projections which result in an overall grade or score for the &quot;Deal&quot;.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<table class="table table-bordered table-hover matrix-table">
+    <!-- header -->
+    <tr>
+        <td></td>
+        <td colspan="3" align="center">
+            <strong class="large">Type of Account that Apply</strong>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <strong class="large">Capability</strong>
+        </td>
+        <td class="info" align="center" style="width: 22%; min-width: 22%; max-width: 22%">
+            <strong class="large">Individual Premium</strong>
+        </td>
+        <td class="info" align="center" style="width: 22%; min-width: 20%; max-width: 22%">
+            <strong class="large">Corporate Basic</strong>
+        </td>
+        <td class="info" align="center" style="width: 22%; min-width: 22%; max-width: 22%">
+            <strong class="large">Corporate Premium</strong>
+        </td>
+    </tr>
+    <!-- Pricing -->
+    <tr>
+        <td align="left">
+            <strong class="large">Pricing</strong>
+        </td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td align="right">Subscription Price</td>
+        <td align="center" class="grey" data-bind="text: indivPremiumPrice"></td>
+        <td align="center" class="grey" data-bind="text: corpBasicPrice"></td>
+        <td align="center" class="grey" data-bind="text: corpPremiumPrice"></td>
+    </tr>
+    <tr>
+        <td align="right">Term</td>
+        <td align="center" class="grey"><span data-bind="text: indivPremiumTerm"></span> months</td>
+        <td align="center" class="grey"><span data-bind="text: corpBasicTerm"></span> months</td>
+        <td align="center" class="grey"><span data-bind="text: corpPremiumTerm"></span> months</td>
+    </tr>
+    <tr>
+        <td align="right">Renewal subscription after 1st term</td>
+        <td align="center" class="grey" data-bind="text: indivPremiumRenewal"></td>
+        <td align="center" class="grey" data-bind="text: corpBasicRenewal"></td>
+        <td align="center" class="grey" data-bind="text: corpPremiumRenewal"></td>
+    </tr>
+    <tr>
+        <td align="right"></td>
+        <td align="center" class="info"><a class="btn btn-success" href="//localhost:8000/Account/Register/?accountType=IndivPremium">Purchase</a></td>
+        <td align="center" class="info"><a class="btn btn-success" href="//localhost:8000/Account/Register/?accountType=CorpBasic" disabled>Coming soon</a></td>
+        <td align="center" class="info"><a class="btn btn-success" href="//localhost:8000/Account/Register/?accountType=CorpPremium" disabled>Coming soon</a></td>
+    </tr>
+
+    <!-- body -->
+    <tr>
+        <td align="left" colspan="4">
+            <div class="panel-group" id="accordion_level1_23">
+                <div class="panel panel-default">
+                    <a class="panel-default collapsed" data-toggle="collapse" data-parent="#accordion_level1_23" href="#collapse_level1_23">
+                        <div class="panel-heading in-table">
+                            <h4 class="accordion-header">Individual Real Estate Properties in Investment Portfolio</h4>
+                        </div>
+                    </a>
+                    <div id="collapse_level1_23" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p>
+                                For each Property subject to investment, Data Inputs are inputted separately and saved as Individual Projects. This can be done
+                                by the the Investor or individual Propery Manager. Whoever inputs the data will become the &quot;Author&quot;. For Corporate
+                                Accounts, the Author will give access permission to specific individuals, for example, the Property Manager, the Investor and
+                                the Investors bank or CPA.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td align="right">Content</td>
+        <td align="center" class="success">Subscription to the full <em>ThruThink<sup style="font-size: x-small">SM</sup></em> site</td>
+        <td align="center" class="success">Subscription to the full <em>ThruThink<sup style="font-size: x-small">SM</sup></em> site</td>
+        <td align="center" class="success">Subscription to the full <em>ThruThink<sup style="font-size: x-small">SM</sup></em> site</td>
+    </tr>
+    <tr>
+        <td align="right">Number of separate individual projects</td>
+        <td align="center" class="warning">Up to 10</td>
+        <td align="center" class="success">
+            <abbr data-toggle="popover" data-placement="top"
+                data-content="<em>ThruThink<sup style='font-size: xx-small'>SM</sup></em> reserves the right to set an upper limit on # of individual projects or combinations at some point in the future due to unforseen storage or computation issues in the future">
+                Unlimited<sup>*</sup>
+            </abbr>
+        </td>
+        <td align="center" class="success">
+            <abbr data-toggle="popover" data-placement="top"
+                data-content="<em>ThruThink<sup style='font-size: xx-small'>SM</sup></em> reserves the right to set an upper limit on # of individual projects or combinations at some point in the future due to unforseen storage or computation issues in the future">
+                Unlimited<sup>*</sup>
+            </abbr>
+        </td>
+    </tr>
+    <tr>
+        <td align="right">Master Account Capability (manage account access)</td>
+        <td align="center" class="danger">No</td>
+        <td align="center" class="success">Yes</td>
+        <td align="center" class="success">Yes</td>
+    </tr>
+    <tr>
+        <td align="right">Number of Individual Accounts</td>
+        <td align="center" class="warning">One Individual Account available</td>
+        <td align="center" class="warning">Up to 5 Individual Accounts within Master Account</td>
+        <td align="center" class="success">
+            <abbr data-toggle="popover" data-placement="top"
+                data-content="<em>ThruThink<sup style='font-size: xx-small'>SM</sup></em> reserves the right to set an upper limit on # of individual projects or combinations at some point in the future due to unforseen storage or computation issues in the future">
+                Unlimited<sup>*</sup>
+            </abbr> Individuals Accounts within Master Account
+        </td>
+    </tr>
+    <tr>
+        <td align="right">Project Combination Capability within Master Account</td>
+        <td align="center" class="danger">None</td>
+        <td align="center" class="warning">Up to 10</td>
+        <td align="center" class="success">
+            <abbr data-toggle="popover" data-placement="top"
+                data-content="<em>ThruThink<sup style='font-size: xx-small'>SM</sup></em> reserves the right to set an upper limit on # of individual projects or combinations at some point in the future due to unforseen storage or computation issues in the future">
+                Unlimited<sup>*</sup>
+            </abbr>
+        </td>
+    </tr>
+
+    <!-- level 2 -->
+    <tr>
+        <td align="left" colspan="4">
+            <div class="panel-group" id="accordion_level2_23">
+                <div class="panel panel-default">
+                    <a class="panel-default collapsed" data-toggle="collapse" data-parent="#accordion_level2_23" href="#collapse_level2_23">
+                        <div class="panel-heading in-table">
+                            <h4 class="accordion-header">Level 2 &mdash; Investment Sector</h4>
+                        </div>
+                    </a>
+                    <div id="collapse_level2_23" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p>
+                                The Investor would create a Summary Report for his or her investments and save it such as &quot;Rebecca's Properties&quot;
+                                or &quot;Austin Area Properties&quot; or &quot;Bay Area Property Manager&quot;. The saved Summary Report would list specific
+                                key summary Data Points, listed for each of the Investor's investments and an average for each Data Point for all of the
+                                listed investments. The Investor would be the Author of this Report and give permission to others such as the Investors
+                                Bank or CPA. The Investor would have access to each of the Individual Projects that provided Permission to the Investor.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td align="right">Level 2 Combination Capability within Master Account (example: Individual Projects categorized under Departments)</td>
+        <td align="center" class="danger">None</td>
+        <td align="center" class="danger">None</td>
+        <td align="center" class="success">Assigned Access to specified Level 2 Projects within Master Account</td>
+    </tr>
+    <tr>
+        <td align="right">Number of separate Level 2 Projects</td>
+        <td align="center" class="danger">None</td>
+        <td align="center" class="danger">None</td>
+        <td align="center" class="success">
+            <abbr data-toggle="popover" data-placement="top"
+                data-content="<em>ThruThink<sup style='font-size: xx-small'>SM</sup></em> reserves the right to set an upper limit on # of individual projects or combinations at some point in the future due to unforseen storage or computation issues in the future">
+                Unlimited<sup>*</sup>
+            </abbr>
+        </td>
+    </tr>
+
+    <!-- level 3 -->
+    <tr>
+        <td align="left" colspan="4">
+            <div class="panel-group" id="accordion_level3_23">
+                <div class="panel panel-default">
+                    <a class="panel-default collapsed" data-toggle="collapse" data-parent="#accordion_level3_23" href="#collapse_level3_23">
+                        <div class="panel-heading in-table">
+                            <h4 class="accordion-header">Level 3 &mdash; Total Company</h4>
+                        </div>
+                    </a>
+                    <div id="collapse_level3_23" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p>
+                                The Investor would create a Summary Report of the all the Investors Area Summary Reports such as &quot;Austin Area
+                                Properties&quot;, &quot;Bay Area Properties&quot;, &quot;Seatle Area Properties&quot; and create a report for the
+                                Investors entire portfolio, i.e.. a summary of multiple summaries. For this report, the average for each area's
+                                Summary Data points will be listed under the Data Point and an average of all of the areas will be shown. The Investor
+                                will then save this as a Portfolio Report and provide Permission the Investor's Bank,or other Investors involved in
+                                the projects.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td align="right">Level 3 Combination Capability within Master Account (example: Individual Projects are combined into Departments,
+            Departments are combined into Divisions or Factory locations)</td>
+        <td align="center" class="danger">None</td>
+        <td align="center" class="danger">None</td>
+        <td align="center" class="success">Assigned Access to specified Level 3 Projects within Master Account</td>
+    </tr>
+    <tr>
+        <td align="right">Number of separate Level 3 Projects</td>
+        <td align="center" class="danger">None</td>
+        <td align="center" class="danger">None</td>
+        <td align="center" class="success">
+            <abbr data-toggle="popover" data-placement="top"
+                data-content="<em>ThruThink<sup style='font-size: xx-small'>SM</sup></em> reserves the right to set an upper limit on # of individual projects or combinations at some point in the future due to unforseen storage or computation issues in the future">
+                Unlimited<sup>*</sup>
+            </abbr>
+        </td>
+    </tr>
+    <tr>
+        <td align="right">Level 4 Combination Capability within Master Account (example: Individual Projects combined into Departments,
+            Departments are combined into Divisions, Divisions are combined into Company Total)</td>
+        <td align="center" class="danger">None</td>
+        <td align="center" class="danger">None</td>
+        <td align="center" class="success">Assigned Access to specified Level 4 Projects within Master Account</td>
+    </tr>
+    <tr>
+        <td align="right">Number of separate Level 4 Projects</td>
+        <td align="center" class="danger">None</td>
+        <td align="center" class="danger">None</td>
+        <td align="center" class="success">
+            <abbr data-toggle="popover" data-placement="top"
+                data-content="<em>ThruThink<sup style='font-size: xx-small'>SM</sup></em> reserves the right to set an upper limit on # of individual projects or combinations at some point in the future due to unforseen storage or computation issues in the future">
+                Unlimited<sup>*</sup>
+            </abbr>
+        </td>
+    </tr>
+</table>

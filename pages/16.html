@@ -1,0 +1,133 @@
+<!-- Individuals -->
+<div class="panel-group" id="accordion_16">
+    <div class="panel panel-default">
+        <a class="panel-default collapsed" data-toggle="collapse" data-parent="#accordion_16" href="#collapse_16">
+            <div class="panel-heading">
+                <h3 class="accordion-header" align="center">Individuals</h3>
+            </div>
+        </a>
+        <div id="collapse_16" class="panel-collapse collapse">
+            <div class="panel-body matrix-panel">
+                <p align="center">
+                    <em>ThruThink<sup style="font-size: x-small">SM</sup></em> was born out of the realization that businesses are started and run with passion, but survive and grow with numbers.
+                    Some people just don't deal with numbers well and therefore suffer the consequenses of failure or are able to survive to the point of being able
+                    to hire good &quot;numbers people&quot;. A very small percentage of business people possess together the vision, passion and the affinity for numbers
+                    that are required for long term business success.
+                </p>
+                <p align="center">
+                    <em>ThruThink<sup style="font-size: x-small">SM</sup></em> is intended to give a &quot;numbers&quot; perspective to Individuals with an established business, entrepreneurs planning
+                    out a new business, retirees planning a new chapter in their lives or simply individuals with a dream. Data Inputs are inputted and saved as an
+                    Individual Project. Each Project can represent different &quot;scenarios&quot; representing different risk levels or opportunities. Whoever inputs
+                    the data will become the &quot;Author&quot;. The Author can give access permission to Corporate Accounts, for example your banker, investor, CPA or
+                    other advisor to access your Project.
+                </p>
+                <p align="center">
+                    The Individual Quick Deal is a one time only assessment of one deal and will provide a <em>ThruThink Deal Score<sup style="font-size: x-small">SM</sup></em> and a report containing a
+                    Deal Summary, Balance Sheet, Income Statement, Cash Flow and Sources and Uses of Cash. It does not involve a subscription to the <em>ThruThink<sup style="font-size: x-small">SM</sup></em>
+                    site. The Individual Quick Deal purchase price may be applied to a subscription within 12 months of purchasing the Individual Quick Deal analysis.
+                </p>
+                <p align="center">
+                    The Individual Premium is a subscription to use the <em>ThruThink<sup style="font-size: x-small">SM</sup></em> site which will enable the User to make
+                    <abbr data-toggle="popover" data-placement="top" data-content="<em>ThruThink<sup style='font-size: xx-small'>SM</sup></em> reserves the right to set an upper limit on # of individual projects or combinations at some point in the future due to unforseen storage or computation issues in the future">
+                    unlimited<sup>*</sup></abbr> changes and save up to 10 different Projects.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="panel-group" id="accordion_dealscore_16">
+    <div class="panel panel-default">
+        <a class="panel-default collapsed" data-toggle="collapse" data-parent="#accordion_dealscore_16" href="#collapse_dealscore_16">
+            <div class="panel-heading">
+                <h4 class="accordion-header">ThruThink<sup style="font-size: medium">SM</sup> Deal Score</h4>
+            </div>
+        </a>
+        <div id="collapse_dealscore_16" class="panel-collapse collapse">
+            <div class="panel-body matrix-panel">
+                <p>
+                    The <em>ThruThink Evaluation<sup style="font-size: x-small">SM</sup></em> evaluates the &quot;Deal&quot; or comparative benefit to the Owner as presented by the User Inputs
+                    and calculates the <em>ThruThink<sup style="font-size: x-small">SM</sup> Deal Score</em>. It is not necessarily a score for the quality of the Company itself, but a score for
+                    the &quot;Deal&quot;. In other words, an excellent Company can receive a poor Deal Score because of the level of the purchase price or valuation,
+                    improper debt or equity structure, capital expenditures, owner draws, etc. The <em>ThruThink<sup style="font-size: x-small">SM</sup> Deal Score</em> is available with the
+                    Individual Quick Deal and the <em>ThruThink<sup style="font-size: x-small">SM</sup></em> subscription.
+                </p>
+                <p>
+                    The <em>ThruThink<sup style="font-size: x-small">SM</sup> Deal Score</em> uses proprietary algorithms and relationships that evaluates multiple factors involving historical
+                    information, the transaction itself and the projections which result in an overall grade or score for the &quot;Deal&quot;.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<table class="table table-bordered table-hover matrix-table">
+    <!-- header -->
+    <tr>
+        <td>
+            <strong class="large">Type of Accounts that Apply</strong>
+        </td>
+        <td class="info" align="center" style="width: 33%; min-width: 33%; max-width: 33%">
+            <strong class="large">Individual Quick Deal</strong>
+        </td>
+        <td class="info" align="center" style="width: 33%; min-width: 33%; max-width: 33%">
+            <strong class="large">Individual Premium</strong>
+        </td>
+    </tr>
+    <!-- Pricing -->
+    <tr>
+        <td>
+            <strong class="large">Price</strong>
+        </td>
+        <td align="center" class="grey" data-bind="text: quickDealPrice"></td>
+        <td align="center" class="grey"></td>
+    </tr>
+    <tr>
+        <td>
+            <strong class="large">Subscription Price</strong>
+        </td>
+        <td align="center" class="grey">None</td>
+        <td align="center" class="grey" data-bind="text: indivPremiumPrice"></td>
+    </tr>
+    <tr>
+        <td>
+            <strong class="large">Term</strong>
+        </td>
+        <td align="center" class="grey">One Deal at a time</td>
+        <td align="center" class="grey"><span data-bind="text: indivPremiumTerm"></span> months</td>
+    </tr>
+    <tr>
+        <td>
+            <strong class="large">Renewal subscription after 1st term</strong>
+        </td>
+        <td align="center" class="grey">None</td>
+        <td align="center" class="grey" data-bind="text: indivPremiumRenewal"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td align="center" class="info"><a class="btn btn-success" href="//localhost:8000/Account/Register/?accountType=QuickDeal">Purchase</a></td>
+        <td align="center" class="info"><a class="btn btn-success" href="//localhost:8000/Account/Register/?accountType=IndivPremium">Purchase</a></td>
+    </tr>
+    <!-- body -->
+    <tr>
+        <td>
+          <strong class="large">Number of Separate Projects</strong>
+        </td>
+        <td align="center">1</td>
+        <td align="center">Up to 10</td>
+    </tr>
+    <tr>
+        <td>
+            <strong class="large">Project Combination Capability</strong>
+        </td>
+        <td align="center">None</td>
+        <td align="center">None</td>
+    </tr>
+    <tr>
+        <td>
+            <strong class="large">Content</strong>
+        </td>
+        <td align="center"><em>ThruThink<sup style="font-size: x-small">SM</sup> Deal Score</em> and PDF Deal Summary, Balance Sheet, Income Statement and Sources and Uses of Cash</td>
+        <td align="center">Subscription to <em>ThruThink<sup style="font-size: x-small">SM</sup></em> site</td>
+    </tr>
+</table>

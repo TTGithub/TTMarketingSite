@@ -1,0 +1,31 @@
+.noty_theme__metroui.noty_type__warning {
+  background: none;
+}
+
+.noty_theme__metroui.noty_bar {
+  box-shadow: none;
+}
+
+#noty_layout__topCenter,
+#noty_layout__topRight {
+  /*top: 11%;*/
+  width: auto;
+  /*z-index: 999;*/  /* drop down menu can cover it this way with z 1000 */
+  /*pointer-events: none;*/  /* we can click through the transparent parts */
+}
+
+#noty_layout__topCenter .noty_close_button,
+#noty_layout__topRight .noty_close_button {
+  top: 68px;
+  right: 133px;
+  /*display: none;*/
+}
+
+.noty_theme__metroui.noty_bar {
+  /*animation-delay: 2s;*/
+  animation-duration: 2s;
+  /*animation-iteration-count: 2;*/
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  -ms-animation-duration: 2s;
+}

@@ -1,0 +1,27 @@
+{
+  "name": "thruthink",
+  "version": "0.0.0",
+  "description": "ThruThink Website",
+  "license": "Closed, non public, all rights reserved",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "3.3.5 - 4",
+    "fontawesome": "^4.6.0",
+    "jquery": "1.11.3 - 2",
+    "bootstrap-dropdown-hover": "^1.0.4",
+    "datatables.net-bs": "^1.10.11",
+    "datatables.net-responsive-bs": "^2.0.2",
+    "page": "page.js#^1.7.1",
+    "html5-history-api": "^4.2.7",
+    "noty": "^3.0.1",
+    "animate.css": "^3.5.2",
+    "knockout": "^3.4.2",
+    "numeral": "^2.0.6"
+  }
+}
