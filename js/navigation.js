@@ -226,7 +226,9 @@ function slideTo(ctx) {
     }
   } else if (!splashImage) {
     window.topCenterSplash.close();
-    window.topRightSplash.close();
+    if (window.topRightSplash != null) {
+      window.topRightSplash.close();
+    }
   }
 
   var loadPageIndex = toPageIndex + toSubPageIndex;
