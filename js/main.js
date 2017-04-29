@@ -75,7 +75,7 @@
         var documentName = $caseStudyIframe.data("document");
         var caseStudyNumber = caseStudyId.split("_")[0];
         $caseStudyIframe.attr("src",
-          "http://docs.google.com/gview?url=https://mrcsabatoth.github.io/ThruThink/casestudies/" +
+          "http://docs.google.com/gview?url=https://thruthink.github.io/docs/casestudies/" +
           caseStudyNumber + "/" + documentName + ".pdf&embedded=true"
         );
       }
