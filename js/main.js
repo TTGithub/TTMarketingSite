@@ -20,7 +20,7 @@
   $(document).ready(function () {
     window.vm = new ViewModel();
 
-    $.get("http://localhost:8000/api/Engine/PricingMatrix", function (returnData) {
+    $.get("https://thruthink.azurewebsites.net/api/Engine/PricingMatrix", function (returnData) {
       vm.quickDealPrice(numeral(returnData.AccountTypes[0].PurchasePrice).format('$0,0'));
       vm.quickDealTerm(returnData.AccountTypes[0].Term);
       vm.indivPremiumPrice(numeral(returnData.AccountTypes[1].SubscriptionPrice).format('$0,0'));
@@ -75,7 +75,7 @@
         var documentName = $caseStudyIframe.data("document");
         var caseStudyNumber = caseStudyId.split("_")[0];
         $caseStudyIframe.attr("src",
-          "http://docs.google.com/gview?url=https://thruthink.github.io/docs/casestudies/" +
+          "https://docs.google.com/gview?url=https://thruthink.github.io/docs/casestudies/" +
           caseStudyNumber + "/" + documentName + ".pdf&embedded=true"
         );
       }
