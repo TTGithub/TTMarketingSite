@@ -7,13 +7,13 @@
     self.indivPremiumPrice = ko.observable();
     self.indivPremiumRenewal = ko.observable();
     self.indivPremiumTerm = ko.observable();
-    self.corpBasicPrice = ko.observable();
-    self.corpBasicRenewal = ko.observable();
+    self.corpBasicPrice = ko.observable("Coming soon");
+    self.corpBasicRenewal = ko.observable("Coming soon");
     self.corpBasicTerm = ko.observable();
-    self.corpPremiumPrice = ko.observable();
-    self.corpPremiumRenewal = ko.observable();
+    self.corpPremiumPrice = ko.observable("Coming soon");
+    self.corpPremiumRenewal = ko.observable("Coming soon");
     self.corpPremiumTerm = ko.observable();
-    self.univClassPrice = ko.observable();
+    self.univClassPrice = ko.observable("Coming soon");
     self.univClassTerm = ko.observable();
   }
 
@@ -26,13 +26,13 @@
       vm.indivPremiumPrice(numeral(returnData.AccountTypes[1].SubscriptionPrice).format('$0,0'));
       vm.indivPremiumRenewal(numeral(returnData.AccountTypes[1].RenewalPrice).format('$0,0'));
       vm.indivPremiumTerm(returnData.AccountTypes[1].Term);
-      vm.corpBasicPrice(numeral(returnData.AccountTypes[2].SubscriptionPrice).format('$0,0'));
-      vm.corpBasicRenewal(numeral(returnData.AccountTypes[2].RenewalPrice).format('$0,0'));
+      // vm.corpBasicPrice(numeral(returnData.AccountTypes[2].SubscriptionPrice).format('$0,0'));
+      // vm.corpBasicRenewal(numeral(returnData.AccountTypes[2].RenewalPrice).format('$0,0'));
       vm.corpBasicTerm(returnData.AccountTypes[2].Term);
-      vm.corpPremiumPrice(numeral(returnData.AccountTypes[3].SubscriptionPrice).format('$0,0'));
-      vm.corpPremiumRenewal(numeral(returnData.AccountTypes[3].RenewalPrice).format('$0,0'));
+      // vm.corpPremiumPrice(numeral(returnData.AccountTypes[3].SubscriptionPrice).format('$0,0'));
+      // vm.corpPremiumRenewal(numeral(returnData.AccountTypes[3].RenewalPrice).format('$0,0'));
       vm.corpPremiumTerm(returnData.AccountTypes[3].Term);
-      vm.univClassPrice(numeral(returnData.AccountTypes[4].PurchasePrice).format('$0,0'));
+      // vm.univClassPrice(numeral(returnData.AccountTypes[4].PurchasePrice).format('$0,0'));
       vm.univClassTerm(returnData.AccountTypes[4].Term);
     });
 
