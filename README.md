@@ -1,2 +1,2 @@
-# thruthink.github.io
-ThruThink martketing website
+# tt.github.io
+TT martketing website
